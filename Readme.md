@@ -24,7 +24,8 @@ catkin_make
 ## requirements for openpifpaf_ros
 
 ```shell
-pip install openpifpaf
+pip3 install opencv-python
+pip3 install openpifpaf
 ```
 
 ## How to RUN
