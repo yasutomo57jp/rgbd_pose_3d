@@ -6,7 +6,7 @@ Estimated poses are described in the camera coordinate.
 ## Environment
 
 - ROS Noetic / Ubuntu 20.04 / Python 3
-- 
+- RGB-D sensor (A Realsense sensor is recommended.)
 
 ## Install
 
