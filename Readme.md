@@ -3,7 +3,15 @@
 A simple 3D human pose estimation using an RGB-D sensor such as Realsense.  
 Estimated poses are described in the camera coordinate.
 
-## install
+## Environment
+
+- ROS Noetic / Ubuntu 20.04 / Python 3
+- 
+
+## Install
+
+This code uses openpifpaf to estimate 2D human pose, and then estimate the 3D pose by referring the corresponding depth image.
+It uses [openpifpaf_ros](https://github.com/yasutomo57jp/openpifpaf_ros) as an implementation of openpifpaf for ROS.
 
 ```shell
 cd catkin_ws/src
