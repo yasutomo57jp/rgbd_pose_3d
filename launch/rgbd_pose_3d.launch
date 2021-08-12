@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="rgbd_pose_3d" type="rgbd_pose_3d_node.py" name="rgbd_pose_3d">
+      <param name="_in_depth_topic" value="/camera/aligned_depth_to_color/image_raw" />
+      <param name="_in_pose_topic" value="/human_pose" />
+    </node>
+</launch>
